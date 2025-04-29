@@ -23,9 +23,9 @@ function Card({weatherData}){
 
 
   return (
-    <div className="card-container">
+    <div className="weather-cards">
       {entityData.map((data, index)=>(
-        <div className="weather-cards" key={index}>
+        <div className="weather-card" key={index}>
         <h3>{data.entity}</h3>
         <p>{data.value}</p>
       </div>

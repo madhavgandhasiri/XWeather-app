@@ -1,9 +1,9 @@
-.card-container{
+.weather-cards{
   display: flex;
   gap: 1rem;
 }
 
-.weather-cards{
+.weather-card{
   background-color: white;
   display: flex;
   flex-direction: column;

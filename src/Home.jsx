@@ -44,7 +44,7 @@ function Home() {
       </div>
       {loading ? <p>Loading data...</p> : null}
       {weatherData ? (
-        <div>
+        <div className="weather-cards">
           <Card weatherData={weatherData} />
         </div>
       ) : null}
