@@ -1,0 +1,14 @@
+.card-container{
+  display: flex;
+  gap: 1rem;
+}
+
+.weather-cards{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  width: 12rem;
+  border-radius: 5px;
+}
+
